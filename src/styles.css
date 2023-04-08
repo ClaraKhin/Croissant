@@ -1,0 +1,22 @@
+:root {
+  --bg-color: linear-gradient(
+    44.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
+  --color-1: #966919;
+  --color-2: #634513;
+  --color-3: #36260b;
+}
+
+body {
+  background: var(--bg-color);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.croissant {
+  width: 100vw;
+  height: 92vh;
+  object-fit: cover;
+}
